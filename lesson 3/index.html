@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 3</title>
+</head>
+<body>
+	<form action="#" method="get" name="register_form">
+		<label>
+			<span>Ваше имя:</span><br>
+			<input type="text" name="name" placeholder="Введите имя"><br>
+		</label>
+		<label>
+			<span>Ваша фамилия:</span><br>
+			<input type="text" name="lastName" placeholder="Введите фамилию"><br>
+		</label>
+		<label>
+			<span>Ваш email:</span><br>
+			<input type="email" name="email" placeholder="Введите email"><br>
+		</label>
+		<label>
+			<span>Ваша дата рождения:</span><br>
+			<input type="date" name="date_of_birth" placeholder="Введите дату рождения" min="18" max="100"><br>
+		</label>
+		<label>
+			<span>Ваш номер телефона:</span><br>
+			<input type="tel" name="phoneNumber" placeholder="Введите телефон"><br>
+		</label>
+		<br>
+		<div>
+			<span>Выберите размер:</span><br>
+			<label>
+				<input type="radio" name="size" value="XS">XS<br>
+			</label>
+			<label>
+				<input type="radio" name="size" value="S">S<br>
+			</label>
+			<label>
+				<input type="radio" name="size" value="M">M<br>
+			</label>
+			<label>
+				<input type="radio" name="size" value="L">L<br>
+			</label>
+		</div>
+		<br>
+		<div>
+			<span>Дополнительные опции:</span><br>
+			<label>
+				<input type="checkbox" name="options" value="Dostavka">Доставка<br>
+			</label>
+			<label>
+				<input type="checkbox" name="options" value="PayCard">Оплата картой<br>
+			</label>
+			<label>
+				<input type="checkbox" name="options" value="CallMe">Перезвоните мне<br>
+			</label>
+		</div>
+		<br>
+		<div>
+			<span>Выберите цвет:</span><br>
+			 <select name="color" multiple>
+		 		<option value="red">Красный</option>
+		 		<option value="blue">Синий</option>
+		 		<option value="white">Белый</option>
+		 		<option value="black" selected>Черный</option>
+		 	</select>
+		</div>
+		<br>
+		<button type="submit">Отправить</button>
+		
+	</form>
+</body>
+</html>
