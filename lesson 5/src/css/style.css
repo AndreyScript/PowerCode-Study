@@ -1,0 +1,217 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: grey;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+header {
+	background-image: url(src/img/firstscreen.png);
+}
+
+h1 {
+	color: #FFFFFF;
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 71px;
+	letter-spacing: 0.01em;
+	width: 635px;
+	height: 142px;
+}
+
+h2 {
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 44px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: black;
+}
+
+h3 {
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #005BC1;
+}
+
+h4 {
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #343434;
+}
+
+.top-menu {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+	color: #FFFFFF;
+}
+
+.header-block-content p {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	width: 445px;
+	height: 44px;
+}
+
+.header-block-content a {
+	width: 79px;
+	height: 22px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+}
+
+.our-projects-item p {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 19px;
+	color: #343434;
+}
+
+.equipment-rent-text p {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 25px;
+	color: #343434;
+}
+
+.equipment-rent-list-name {
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #343434;
+}
+
+.equipment-rent-list-item p	{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 19px;
+	color: #343434;
+}
+
+.all-news {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.news-list-text p {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 19px;
+	color: #343434;
+}
+
+.date-of-news {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: right;
+	color: #979797;
+}
+
+footer {
+	background: #005BC1;
+	
+}
+
+.phone-number {
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.adress {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+	color: #FFFFFF;
+}
+
+.mail-box {
+	color: #FFFFFF;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+}
+
+.foot-menu li {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 19px;
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
