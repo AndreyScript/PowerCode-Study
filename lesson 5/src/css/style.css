@@ -13,7 +13,7 @@ a {
 }
 
 header {
-	background-image: url(src/img/firstscreen.png);
+	background-image: url(../src/img/firstscreen.png);
 }
 
 h1 {
