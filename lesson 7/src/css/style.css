@@ -1,0 +1,116 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	transition: all .1s ease-in;
+	box-sizing: border-box;
+}
+
+.weather {
+	margin: 0 auto;
+}
+
+.weather-report {
+	background-color: #3399CC;
+	width: 1100px;
+	height: 700px;
+	border: 10px solid #2B81AC;
+
+}
+
+.weather-report-list {
+	font-size: 16px;
+	width: 100%;
+	font-size: 0;
+}
+
+h3 {
+	color: #FFFFFF;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+}
+
+ul {
+	width: 80%;
+	margin: 1% 10% 1% 10%;
+}
+
+li {
+	display: inline-block;
+	font-size: 16px;
+	padding: 30px;
+	border: 1px solid #FFFFFF;
+	list-style-type: none;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+li:hover {
+	opacity: 30%;
+}
+
+.city-1 {
+	background-color: #3399CC;
+	width: 50%;
+}
+.city-2 {
+	background-color: #33CCCC;
+	width: 25%;
+}
+.city-3 {
+	background-color: #996699;
+	width: 25%;
+}
+
+.city-4 {
+	background-color: #C24747;
+	width: 25%;
+}
+
+.city-5 {
+	background-color: #E2674A;
+	width: 25%;
+}
+
+.city-6 {
+	background-color: #FFCC66;
+	width: 25%;
+}
+
+.city-7 {
+	background-color: #99CC99;
+	width: 25%;
+}
+
+.city-8 {
+	background-color: #669999;
+	width: 25%;
+}
+
+.city-9 {
+	background-color: #CC6699;
+	width: 50%;
+}
+
+.city-10 {
+	background-color: #339966;
+	width: 25%;
+}
+
+.city-11 {
+	background-color: #666699;
+	width: 100%;
+}
+
+.nice-day {
+	display: block;
+	color: #FFFFFF;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 2%;
+}
+
+
+
+
+
