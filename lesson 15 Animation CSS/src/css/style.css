@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.container {
+    width: 700px;
+    height: 700px;
+    background: url("../img/sky.jpg");
+}
+/*
+.airplane {
+    position: relative;
+    animation: start 20s infinite linear;
+}
+
+.airplane-blades {
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    transform-origin: 1px 100px;
+    background: black;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 50, 0.2);
+    border-radius: 100% 0 0 100%;
+    border-right: 2px solid orange;
+    top: 50%;
+    left: 50%;
+}
+
+.airplane-blades::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    border: 2px dashed orange;
+}
+
+@keyframes start {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}*/
+
+/*.airplane-blades:nth-child(2) {
+    top: auto;
+}
+
+.airplane-blades:nth-child(3) {
+    top: auto;
+}
+
+.airplane-blades:nth-child(4) {
+    top: auto;
+}*/
+
+.airplane {
+    background: red;
+    transform-origin: 0 20px;
+    animation: rotate 3000ms linear infinite;
+}
+.airplane-blades {
+      position: absolute;
+      width: 100px;
+      height: 40px;
+      background: linear-gradient(220deg, rgba(73,155,234,1) 0%,rgba(32,124,229,1) 100%);
+      transform-origin: 0 50%;
+      box-shadow: 0px 0px 20px 0 rgba(0, 0, 50, 0.2);
+      border-radius: 0 100% 10px 0;
+}
+
+
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
