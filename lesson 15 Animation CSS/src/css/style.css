@@ -17,33 +17,53 @@ body {
     height: 700px;
     background: url("../img/sky.jpg");
 }
-/*
+
 .airplane {
     position: relative;
-    animation: start 20s infinite linear;
+    animation: start 5s infinite linear;
+    transform-origin: 0 0;
+    left: 50%;
+    top: 50%;
+
 }
 
-.airplane-blades {
+.blades {
     position: absolute;
     width: 170px;
     height: 30px;
-    transform-origin: 1px 100px;
     background: black;
     box-shadow: 0 0 20px 0 rgba(0, 0, 50, 0.2);
     border-radius: 100% 0 0 100%;
     border-right: 2px solid orange;
-    top: 50%;
-    left: 50%;
+    transform-origin: 1px 10px;
+}
+.blades:nth-child(2) {
+    transform-origin: -1px 15px;
+    transform: rotate(90deg);
 }
 
-.airplane-blades::before {
+.blades:nth-child(3){
+    transform-origin: -1px 15px;
+    transform: rotate(180deg);
+}
+
+.blades:nth-child(4) {
+    transform-origin: 0 16px;
+    transform: rotate(270deg);
+}
+
+.center::before {
     content: "";
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     background: black;
     border: 2px dashed orange;
+    animation: motor 1s infinite linear;
+    z-index: 1;
+    left: -15px;
+    right: 10px;
 }
 
 @keyframes start {
@@ -53,43 +73,16 @@ body {
     100% {
         transform: rotate(360deg);
     }
-}*/
-
-/*.airplane-blades:nth-child(2) {
-    top: auto;
 }
 
-.airplane-blades:nth-child(3) {
-    top: auto;
-}
-
-.airplane-blades:nth-child(4) {
-    top: auto;
-}*/
-
-.airplane {
-    background: red;
-    transform-origin: 0 20px;
-    animation: rotate 3000ms linear infinite;
-}
-.airplane-blades {
-      position: absolute;
-      width: 100px;
-      height: 40px;
-      background: linear-gradient(220deg, rgba(73,155,234,1) 0%,rgba(32,124,229,1) 100%);
-      transform-origin: 0 50%;
-      box-shadow: 0px 0px 20px 0 rgba(0, 0, 50, 0.2);
-      border-radius: 0 100% 10px 0;
+@keyframes motor {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
 }
 
 
 
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(-360deg);
-  }
-}
