@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 640px;
+  background-color: #F4F4F4;
+  border-radius: 40px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  max-width: 560px;
+  border-radius: 8px;
+  margin-bottom: 32px;
+  background-color: #ffffff;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+    &__image {
+      margin-bottom: 33px;
+      margin-top: 31px;
+    }
+
+}
+
+.menu {
+  background-color: #444444;
+  border-radius: 0 0 8px 8px;
+  &__list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  &__list-item {
+    padding-left: 24px;
+    margin: 16px 0 16px 0;
+  }
+  &__list-link {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  &-item1 {
+    flex: 0 0 60%;
+  }
+  &-item2 {
+    flex: 0 0 40%;
+  }
+  .inner {
+    &__title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      color: #0C1014;
+      margin: 48px 0 0 72px;
+    }
+    &__text {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      margin: 16px 0 27px 72px;
+    }
+    &__link {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 18px;
+      text-decoration: none;
+      color: #1890FF;
+      margin: 0 0 0 72px;
+      display: inline-block;
+      position: relative;
+    }
+    &__link::after {
+      content: " ";
+      background-image: url("../img/Vector.svg");
+      position: absolute;
+      top: 3px;
+      left: 95px;
+      width: 8px;
+      height: 12px;
+    }
+    &__btn {
+      display: block;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      text-decoration: none;
+      color: #FFFFFF;
+      background-color: #1890FF;
+      border-radius: 10px;
+      margin: 131px 0 0 72px;
+      padding: 12px 62px 16px ;
+    }
+  }
+}
+
+.products-title {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 66px;
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 48px 0 0 70px;
+  }
+  &__link {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #1890FF;
+    margin: 56px 78px 0 182px;
+    display: inline-block;
+    position: relative;
+
+  }
+  &__link::after {
+    content: " ";
+    background-image: url("../img/Vector.svg");
+    position: absolute;
+    top: 3px;
+    left: 55px;
+    width: 8px;
+    height: 12px;
+  }
+}
+
+.product-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  &__item {
+    flex: 0 0 34%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 26px;
+  }
+  .product-card {
+    margin-bottom: 32px;
+    &__img {
+      width: 168px;
+      height: 168px;
+      max-width: 100%;
+    }
+  }
+  .product-info {
+    display: inline-block;
+    text-alight: left;
+    &__name {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px;
+      margin-bottom: 4px;
+      }
+    &__price {
+      display: block;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      margin-bottom: 12px;
+      }
+    &__button {
+      display: block;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 20px;
+      padding: 1px 18px 3px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 4px;
+      background-color: #1890FF;
+      color: #FFFFFF;
+      }
+    }
+  }
+
+.foot-box {
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 36px;
+  color: #0C1014;
+  text-align: left;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  .follow {
+    max-width: 160px;
+    &__title {
+      margin-bottom: 8px;
+    }
+    &__text {
+      font-weight: normal;
+      font-size: 11px;
+      line-height: 20px;
+      margin-bottom: 21px;
+    }
+    &__icons-item:nth-child(2) {
+      margin: 0 27px;
+    }
+  }
+  .contact {
+    max-width: 181px;
+    margin-left: 36px;
+    &__title {
+      margin-bottom: 8px;
+    }
+    &__adress {
+      font-weight: normal;
+      font-size: 11px;
+      line-height: 20px;
+      height: 40px;
+      margin-bottom: 16px;
+    }
+    &__link-phone {
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 20px;
+      text-decoration: none;
+      color: #515759;
+      margin-bottom: 8px;
+    }
+    &__link-mail {
+      color: #1890FF;
+      font-weight: normal;
+      font-size: 11px;
+      line-height: 20px;
+      text-decoration: none;
+    }
+  }
+}
+
+
+
+
+
+
+
