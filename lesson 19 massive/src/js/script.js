@@ -21,7 +21,7 @@ function output (n) {
     let res = [];
     for (let i in arr) {
 
-        i++; // prevent counting from 0
+        i++; // минуем 0
 
         if (i % 3 === 0 && i % 5 === 0){
             res.push('fizzbuzz');
